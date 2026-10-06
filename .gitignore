@@ -1,0 +1,58 @@
+# ─── Python ──────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ─── Virtual Environments ────────────────────
+venv/
+env/
+.venv/
+ENV/
+
+# ─── Environment / Secrets ───────────────────
+.env
+.env.*
+!.env.example
+
+# ─── Streamlit ───────────────────────────────
+.streamlit/secrets.toml
+
+# ─── Data / Models (large files) ─────────────
+*.pkl
+*.h5
+*.pt
+*.pth
+*.bin
+*.safetensors
+data/raw/
+models/
+
+# ─── Audio Temp Files ────────────────────────
+temp_audio/
+*.wav
+*.mp3
+!assets/*.mp3
+
+# ─── NLTK / spaCy downloads ──────────────────
+nltk_data/
+
+# ─── IDE ─────────────────────────────────────
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ─── OS ──────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── Logs ────────────────────────────────────
+*.log
+logs/
